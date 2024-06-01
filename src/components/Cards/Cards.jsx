@@ -8,26 +8,25 @@ function Arrays() {
   const cards = [
     {
       background: "red",
-      image:  pix,
+      image: pix,
       heading: "Joseph",
       title: "Accountant",
       button: "",
       counter: "",
     },
 
-      
-        {
+    {
       background: "blue",
-      image:  pix,
+      image: pix,
       heading: "Joseph",
       title: "Accountant",
       button: "",
       counter: "",
     },
 
-         {
+    {
       background: "gold",
-      image:  pix,
+      image: pix,
       heading: "Joseph",
       title: "Accountant",
       button: "",
@@ -37,13 +36,16 @@ function Arrays() {
 
   return (
     <>
-          <div className="cards-container " style={{
-              display: 'flex',
-              flexDirection: 'row',
-              gap: '1rem',
-              justifyContent: 'center',
-              alignItems: 'center',
-      }}>
+      <div
+        className="cards-container "
+        style={{
+          display: "flex",
+          flexDirection: "row",
+          gap: "1rem",
+          justifyContent: "center",
+          alignItems: "center",
+        }}
+      >
         {cards.map((card, index) => (
           <div key={index} className="cards-arrays">
             <Cardsx
